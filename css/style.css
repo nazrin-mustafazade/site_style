@@ -1,0 +1,399 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700&family=Montserrat:wght@400;700&display=swap');
+
+:root {
+    --yasil: #53d153;
+}
+header {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    height: 100vh;
+    background: url('../img/headerbg.jpg') center/cover;
+}
+
+h2{
+    font: 1.25em Montserrat;
+    letter-spacing: 4px;
+    color: #828181;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+#logo img { padding: 5px 0}
+#menu li a {
+    font: bold 1em Lato, sans-serif;
+    color: #fff;
+    padding: 5px 0;
+    margin: 0 10px;
+}
+#title button {
+    background: var(--yasil);
+    border: none;
+    border-radius: 1.7em;
+    padding: .5em 1em;
+    margin: 1em;
+    font: 1em Lato, sans-serif;
+    text-transform: uppercase;
+    color: #fff;
+}
+h1 {
+    font: bold 2em Montserrat;
+    text-transform: capitalize;
+    color: #fff;
+}
+#search { display: flex;}
+#search input {
+    background: #ffffff80;
+    border: none;
+    outline: none;
+    font: 1em Lato;
+    color: #111;
+    padding: 5px 17px;
+    margin-top: 5px;
+}
+#search [type=search] {
+    border-radius: 15px 0 0 15px;
+}
+#search [type=submit] {
+    border-radius: 0 15px 15px 0;
+    background: #ffffff80 url('../img/search.svg') center/50% no-repeat ;
+
+}
+main section {
+    padding: 40px 0;
+    text-align: center;
+}
+.icon {
+    display: flex;
+    margin: auto;
+    width: 7em;
+    height: 7em;
+    background: #e0f3e0;
+    border-radius: 28px;
+}
+.icon i { 
+    margin: auto; 
+    font-size: 4em;
+    color: var(--yasil)
+}
+.bgyasil { background-color: var(--yasil); }
+.bgboz { background-color: #f1f1f1; }
+
+#scrolldown{
+    margin-bottom: 10px;
+    text-align: center;
+    width: 120px;
+    height: 25px;
+    border-radius: 13px;
+    background-color: #ffffff80;
+}
+
+#scrolldown p{
+    font: 300 1em "Proxima Nova";
+    color: #111;
+    text-align: center;
+    padding-top: 1px;
+}
+
+.hrr{
+    height: 2px;
+    background-color: rgb(125, 122, 122);
+    width: 40px;
+    border-style: none;
+}
+
+h6{
+    font: 1em "sans-serif";
+    color: #b7b3b3;
+    text-align: center;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.bgyasil h2{
+    color: #207b20;
+}
+
+.bgyasil h6{
+    color: #2b9b2b;
+}
+h3{
+    font: bold 1.5em "Proxima Nova";
+    color: #828181;
+    text-align: center;
+    margin-top: 27px;
+}
+.bgyasil hr{
+    background-color: #1f7b1f;
+}
+
+.margintop{
+    margin-top: 70px;
+}
+
+.margintop p{
+    font: 300 0.9em Montserrat;
+    color: #828181;
+    text-align: center;
+    margin: 20px 10px;
+}
+
+.margintop button{
+    font-weight: bold;
+    color:#fff;
+    width: 120px;
+    height: 30px;
+    border-radius: 15px;
+    border-style: none;
+    background-color: #53d153;
+}
+
+
+.buttons{
+    margin: 60px 0;
+    display: flex;
+    padding-left: 70px;
+}
+
+.photoBtn{
+    width: 120px;
+    border-radius: 15px 0 0 15px;
+    border: 1px solid #2b9b2b;
+}
+
+.designBtn{
+    width: 85px;
+    border-color: #2b9b2b;
+    border: 1px solid #2b9b2b;
+}
+
+.printBtn{
+    width: 65px;
+    border-radius: 0 15px 15px 0;
+    border: 1px solid #2b9b2b;
+    
+}
+
+.printBtn:hover{
+    color:#fff;
+    background-color: #2b9b2b;
+}
+
+.designBtn:hover{
+    color:#fff;
+    background-color: #2b9b2b;
+}
+
+.photoBtn:hover{
+    color:#fff;
+    background-color: #2b9b2b;
+}
+
+.buttontxt{
+    height: 30px;
+    font: 1em "Proxima Nova";
+    color: #2b9b2b;
+    text-align: center;
+}
+
+.photos img{
+    margin-bottom: 30px;
+    margin-right: 10px;
+    border-radius: 2px;
+}
+
+
+#btnview{
+    font: 1.2em "Proxima Nova" ;
+    color: #fff;
+    text-align: center;
+    width: 186px;
+    height: 40px;
+    border-radius: 20px;
+    border-style: none;
+    background-color: #2b9b2b;
+}
+
+
+.slider{
+    margin-top: 70px;
+    display: flex;
+}
+
+.slider p{
+    font-size: 1em "Proxima Nova";
+    color: #444;
+    text-align: center;
+}
+
+
+.slider button{
+    font-size: 20px;
+    font-weight: bold;
+    color: #e0dfdf;
+    border-style: none;
+    background-color: transparent;
+}
+
+#leftarrow{
+    margin-left: 20px;
+    margin-right: 50px;
+}
+
+#rightarrow{
+    margin-left: 50px;
+    margin-right: 20px;
+}
+
+#meme img{
+    width: 55px;
+    height: 55px;
+    margin-top: 35px;
+}
+
+#meme{
+    display: flex;
+    margin: 0 110px;
+}
+
+#memetxt{
+    font: 1em "Proxima Nova";
+    color: #444;
+    text-align: left;
+    margin-top: 50px;
+    margin-left: 5px;
+}
+
+#memetxt span{
+    color: #ccc;
+    font-weight: bold;
+}
+
+.clients img{
+    width: 200px;
+    margin-top: 65px;
+}
+
+.clients{
+    margin: 0px 50px;
+}
+
+#appleicon{
+    margin-bottom: 43px;
+    width: 120px;
+}
+
+.verticalline{
+    width: 3px;
+    height: 77px;
+    background-color: #1f7b1f;
+}
+
+.marginleftright{
+    margin: 100px 70px;
+}
+
+#btnclient{
+    font: 1.2em  "Proxima Nova" ;
+    color: #a59d9d;
+    text-align: center;
+    margin-top: 20px;
+    border-style: none;
+    width: 186px;
+    height: 40px;
+    border-radius: 20px;
+    background-color: #dddcdc;
+}
+
+.social{
+    margin-top: 10px;
+    margin-left: 95px;
+    width: 84px;
+    height: 28px;
+    border-radius: 14px;
+    background-color: #c5e9c5;
+}
+
+.marginleftright .verticalline{ margin-top: 5px; margin-left: 135px; }
+
+.card{
+    margin-top: 70px;
+    margin-left: 5px;
+}
+
+.card h4{
+    margin-top: 10px;
+    font: 1em "Proxima Nova";
+    color: #fff;
+    text-align: center;
+}
+
+.card .kisiler{
+    width: 150px;
+}
+
+#twitter{
+    width: 22px;
+}
+
+@media only screen and (min-width: 768px) {
+    .social{ margin-top: 10px; margin-left: 30px;}
+    .marginleftright .verticalline{ margin-left: 70px; }
+    .card{ margin-left: 100px;}
+    .marginleftright{ margin: 100px 70px; display: flex;}
+    .clients .marginphoto{
+        margin-right: 100px;
+    }
+
+    .clients img{
+        width: 200px;
+        margin-top: 65px;
+        margin-right: 80px;
+    }
+    
+    .clients{
+        margin: 0px 150px;
+    }
+    
+    .photos img{margin-right: 30px;}
+    .photos{ margin: 0 200px; }
+    
+    #meme{ margin-left: 660px; }
+
+    #leftarrow{
+        margin-left: 300px;
+        margin-right: 170px;
+    }
+    
+    #rightarrow{
+        margin-left: 170px;
+        margin-right: 300px;
+    }
+    .buttons{padding-left: 623px;}
+    header nav {
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        padding: 0 20px;
+    }
+    #title button {
+        padding: 1em 2em;
+        font: 1.4em Lato, sans-serif;
+        margin: 2em;
+    }
+    h1 { font-size: 3.4em }
+    #menu {
+        display: flex; 
+        order: -1
+    }
+    .col33 {
+        max-width: 1100px;
+        display: flex;
+        margin: auto;
+    }
+
+
+
+}
